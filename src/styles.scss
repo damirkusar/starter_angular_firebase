@@ -1,0 +1,37 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
+@import "tailwind.scss";
+
+.grid {
+  display: grid;
+}
+
+.grid-template-row-full {
+  grid-template-rows: 100vh;
+}
+
+.grid-gap-0 {
+  grid-gap: 0 px;
+}
+
+
+
+// .ts-wrapper {
+//   display: grid;
+//   grid-template-columns: 1fr 1fr 1fr;
+//   grid-gap: 0 px;
+//   grid-template-rows: 100vh;
+// }
+
+// .ts-authBackgroundColumn {
+//   grid-column: 1 / 2;
+//   grid-row: 1;
+//   background-image: url('/assets/images/AuthBg.svg');
+//   background-size: cover;
+// }
+
+// .ts-authFormColumn {
+//   grid-column: 2 / 4;
+//   grid-row: 1;
+//   display: grid;
+// }

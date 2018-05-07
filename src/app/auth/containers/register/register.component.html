@@ -1,0 +1,23 @@
+<app-auth-form>
+  <auth-form-text>
+    <p>Welcome!</p>
+    <p>
+      Please register to use this fantastic app.
+    </p>
+  </auth-form-text>
+  <auth-form>
+    <form novalidate (ngSubmit)="onRegister(registerForm)" [formGroup]="registerForm">
+
+      <app-input [inputType]="'text'" [inputPlaceholder]="'First name'" [inputFormGroup]="registerForm" [inputFormControl]="'firstName'"></app-input>
+      <app-input [inputType]="'text'" [inputPlaceholder]="'Last name'" [inputFormGroup]="registerForm" [inputFormControl]="'lastName'"></app-input>
+      <app-input [inputType]="'email'" [inputPlaceholder]="'Email'" [inputFormGroup]="registerForm" [inputFormControl]="'email'"></app-input>
+      <app-input [inputType]="'password'" [inputPlaceholder]="'Password'" [inputFormGroup]="registerForm" [inputFormControl]="'password'"></app-input>
+      <app-input [inputType]="'password'" [inputPlaceholder]="'Confirm password'" [inputFormGroup]="registerForm" [inputFormControl]="'passwordConfirmation'"></app-input>
+
+      <div class="flex flex-row justify-between">
+        <app-button class="w-2/5" [buttonText]="'Register'" [buttonColor]="'primary'" [buttonDisabled]="!registerForm.valid"></app-button>
+        <app-button class="w-2/5" [buttonText]="'Login'" [buttonColor]="'accent'" [buttonLink]="'/login'"></app-button>
+      </div>
+    </form>
+  </auth-form>
+</app-auth-form>
