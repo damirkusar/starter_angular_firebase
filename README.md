@@ -1,9 +1,6 @@
-# Angularstarter with Firebase
+# Angularstarter
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.8.
-Setup your firebase in environments.ts.
-
-Using by default Angular Material and Tailwind CSS.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.3.
 
 ## Development server
 
@@ -23,10 +20,12 @@ Run `yarn test` to execute the unit tests via [Jest](https://facebook.github.io/
 
 ## Running end-to-end tests
 
-Run `yarn e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Run `yarn e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/) and [Cucumber](https://cucumber.io/).
 
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
 # TODO
+
+* Translation?

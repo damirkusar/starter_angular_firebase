@@ -1,6 +1,6 @@
 export const environment = {
   apiBaseBath: 'https://myApi.com/prod/api',
-  production: true,
+  production: false,
   firebase: {
     apiKey: 'xxx',
     authDomain: 'xxx',
